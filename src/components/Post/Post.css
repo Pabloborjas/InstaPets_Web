@@ -1,0 +1,24 @@
+.post_container {
+width: 615px;
+border: 1px solid #dbdbdb;
+background-color: white;
+margin-top: 25px;
+}
+
+.post_header {
+height: 60px;
+border-bottom: 1px solid #dbdbdb;
+display: flex;
+}
+
+.post_image {
+min-width: 45px;
+min-height: 45px;
+margin: 6px;
+}
+
+.post_username {
+    font-weight: bold;
+    margin-top: 20px;
+
+}

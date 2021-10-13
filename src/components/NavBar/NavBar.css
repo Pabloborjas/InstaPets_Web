@@ -1,0 +1,24 @@
+.navbar_barContent {
+    height: 54px;
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.navbar_logo {
+    margin-top: 8px;
+
+}
+
+.navbar_img {
+    margin: 15px 15px;
+}
+
+.navbar_searchBar {
+    height: 30px;
+    width: 215px;
+    margin-top: 10PX;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
