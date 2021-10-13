@@ -2,6 +2,9 @@ import { Avatar } from "@material-ui/core";
 import React, { Component } from "react";
 import "./Post.css"
 import postimage from "../../imagess/postdog.jpg"
+import love from "../../imagess/loveicon.png"
+import comment from "../../imagess/comment.png"
+import share from "../../imagess/share.png"
 
 
 class Post extends Component {
@@ -29,8 +32,10 @@ class Post extends Component {
 
                 {/* Analytics */}
                 <div>
-                    <div>
-                        
+                    <div style={{"marginLeft":"10px", "display":"flex"}}>
+                       <img src={love} className="post_reactimage" />
+                       <img src={comment} className="post_reactimage" /> 
+                       <img src={share} className="post_reactimage" />  
                     </div>
 
                 </div>
