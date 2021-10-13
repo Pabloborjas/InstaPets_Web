@@ -3,6 +3,8 @@ import "./MainContent.css"
 import Grid from "@material-ui/core/Grid";
 import StatusBar from "../StatusBar/StatusBar";
 import MainPage from "../MainPage/MainPage";
+import InfoSection from "../InfoSection/InfoSection";
+import Suggestions from "../Suggestions/Suggestions";
 
 
 class MainContent extends Component {
@@ -22,12 +24,11 @@ class MainContent extends Component {
 
                         </div>
                     </Grid>
-                    <Grid item xs={2}>
-                        ccc
+                    <Grid item xs={4}>
+                        <InfoSection />
+                        <Suggestions />
                     </Grid>
-                    <Grid item xs={2}>
-                        ddd
-                    </Grid>
+                   
                 </Grid>
             </div>
         );
