@@ -27,3 +27,16 @@ margin: 6px;
     width: 25px;
     margin: 5px;
 }
+
+.post_comment {
+margin: 10px;
+}
+
+.post_commentbox {
+    height: 50px;
+    width: 601px;
+    border: 1px solid #dbdbdb;
+    font-size: 16px;
+    padding-left: 10px;
+    
+}

@@ -45,9 +45,7 @@ changeLogin=()=> {
                                     this.state.isLogin ?  <SignIN/> :   <SignUp/>
                                 }
                                     
-                                   
-                                  
-
+                       
                                     <div className="login_ordiv">
                                         <div className="login_dividor"></div>
                                         <div className="login_or">OR</div>
