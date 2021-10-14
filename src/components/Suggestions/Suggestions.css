@@ -2,6 +2,8 @@
 width: 325px;
 height: 290px;
 margin-top: 25px;
+display: flex;
+
 }
 
 .suggestion_header {
@@ -13,4 +15,19 @@ color: #8e8e8e;
 height: 256px;
 height: 290px;
 margin-top: 10px;
+}
+
+.suggestion_friends {
+    display: flex;
+    padding: 5px 0px;
+}
+
+.suggestion_image {
+max-width: 35px;
+max-height: 35px;
+}
+
+.suggestion_username {
+font-weight: bold;
+margin: 10px;
 }

@@ -16,13 +16,21 @@ class Suggestions extends Component {
                     <div className="suggestion_header">
                         <div>Suggestions </div>
                     </div>
+
                     <div className="suggestion_body">
-                        <div>
-                            <Avatar src={imageSrc} />
-                            <div>Friend 1</div>
+                        <div className="suggestion_friends">
+                            <Avatar src={imageSrc} className="suggestion_image" />
+                            <div className="suggestion_username" >Friend 1</div>
                         </div>
-                       
                     </div>
+
+                    <div className="suggestion_body">
+                        <div className="suggestion_friends">
+                            <Avatar src={imageSrc} className="suggestion_image" />
+                            <div className="suggestion_username" >test 1 1</div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         );
